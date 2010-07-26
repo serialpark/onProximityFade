@@ -3,6 +3,7 @@ onProximityFade
 Copyright (c) 2009 Jakub Linowski. Licensed under the MIT license.
 http://www.linowski.ca
 http://linowski.ca/experiments/onProximityFade/demo.html
+http://plugins.jquery.com/project/onproximityfade
 
 
 Overview
@@ -16,7 +17,7 @@ Usage
 
 * And you're good to go.
 
-* To customize the minimum and maximum opacities and the minimim and maximum distance to object use the following code:
+* To customize the minimum and maximum opacities and distance to object use the following code:
 
 <script language="Javascript" type="text/javascript">
 opf = {
