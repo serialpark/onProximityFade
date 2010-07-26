@@ -14,56 +14,69 @@
 
 <script language="Javascript" type="text/javascript">
 opf = {
-	farOpacity : 0,
-	farDistanceMax : 400,
+	farOpacity : 0.05,
+	farDistanceMax : 100,
 	closeOpacity : 1,
-	closeDistanceMin : 30,
+	closeDistanceMin : 0,
 	className : "fadeBox" 
 };
 </script>
 
 <h1>onProximity Fade - Demo</h1>
-	
-<ul id="boxes">
-  <li class="fadeBox">Box</li>
-  <li class="fadeBox">Box</li>
-  <li class="fadeBox">Box</li>
-  <li class="fadeBox">Box</li>
-  <li class="fadeBox">Box</li>
-  <li class="fadeBox">Box</li>
-  <li class="fadeBox">Box</li>
-  <li class="fadeBox">Box</li>
-  <li class="fadeBox">Box</li>
-</ul>
 
-<a href="/test.html" class="fadeBox">some link</a><br>
+<div class="col">
+<ul id="boxes">
+	<h2>Little Boxes</h2>
+	<li class="fadeBox">Box</li>
+	<li class="fadeBox">Box</li>
+	<li class="fadeBox">Box</li>
+	<li class="fadeBox">Box</li>
+	<li class="fadeBox">Box</li>
+	<li class="fadeBox">Box</li>
+	<li class="fadeBox">Box</li>
+	<li class="fadeBox">Box</li>
+	<li class="fadeBox">Box</li>
+</ul>
+</div>
+
+<div class="col">
+	<h2>Row Links</h2>
+	some row text <a href="/test.html" class="fadeBox">some link</a> <a href="/test.html" class="fadeBox">link 2</a><br>
+	some row text <a href="/test.html" class="fadeBox">some link</a> <a href="/test.html" class="fadeBox">link 2</a><br>
+	some row text <a href="/test.html" class="fadeBox">some link</a> <a href="/test.html" class="fadeBox">link 2</a><br>
+	some row text <a href="/test.html" class="fadeBox">some link</a> <a href="/test.html" class="fadeBox">link 2</a><br>
+	some row text <a href="/test.html" class="fadeBox">some link</a> <a href="/test.html" class="fadeBox">link 2</a><br>
+</div>
 
 
 
 <style>
-	body{
+body{
 	font-family: Verdana;
 	font-size: 0.8em;
 	background-color: #ffffff;
 }
+.col {
+	float: left;
+	width: 400px;
+	padding: 100px;
+	line-height: 30px;
+	background-color: inherit;
+}
 
 #boxes {
-	padding: 100px;
-	margin: 10px;
-	width: 600px;
+	width: 400px;
 }
 #boxes li {
 	border: solid 1px #cfcfcf;
 	float: left;
 	display: block;
 	padding: 5px;
-	margin: 40px;
+	margin: 0 30px 30px 0;	
 	height: 80px;
 	width: 80px;
 	background-color: #efefef;
 }
-
-
 </style>
 
 
